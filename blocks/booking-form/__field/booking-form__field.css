@@ -1,0 +1,15 @@
+.booking-form__field {
+  padding: 20px;
+  margin: 0;
+  color: #333;
+  box-sizing: border-box;
+  opacity:.5;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  background-color: #E5E5E5;
+  height: 60px;
+  border-radius: 5px;
+  border: none;
+}

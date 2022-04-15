@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url(../../vendor/helvetica-neue-55-cufonfonts/HelveticaNeue-Light.otf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url(../../vendor/Open_Sans/OpenSans-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url(../../vendor/Open_Sans/OpenSans-Bold.ttf);
+  font-weight: 700;
+}
+
+.root {
+  background-color: #E5E5E5;
+}

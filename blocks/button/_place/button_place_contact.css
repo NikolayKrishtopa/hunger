@@ -1,0 +1,10 @@
+.button_place_contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  grid-column-start: 4;
+  grid-column-end: 7;
+}

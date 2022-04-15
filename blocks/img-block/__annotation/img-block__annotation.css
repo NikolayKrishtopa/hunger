@@ -1,0 +1,9 @@
+.img-block__annotation {
+  font-family: 'Helvetica Neue';
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-left: 20px;
+}

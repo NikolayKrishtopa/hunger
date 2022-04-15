@@ -1,0 +1,15 @@
+.button_place_booking-form {
+  margin: 0;
+  padding: 0;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  width: auto;
+}
+
+.section__footer_place_contact {
+height: auto;
+position: static;
+font-weight: 700;
+grid-column-start: 1;
+grid-column-end: 4;
+}

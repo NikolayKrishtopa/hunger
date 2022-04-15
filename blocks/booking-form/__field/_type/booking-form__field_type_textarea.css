@@ -1,0 +1,5 @@
+.booking-form__field_type_textarea {
+  height: 120px;
+  grid-column-start: 1;
+  grid-column-end: 7;
+}

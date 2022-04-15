@@ -1,0 +1,19 @@
+.menu__chapter {
+  text-decoration: none;
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Open Sans';
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  width: 120px;
+  height: 50px;
+  border-right: solid 1px rgba(51, 51, 51, 0.2);
+  color: #333333;
+}
+
+.menu__chapter:last-child {
+  border: none;
+}

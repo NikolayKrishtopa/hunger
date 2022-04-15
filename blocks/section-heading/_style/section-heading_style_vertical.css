@@ -1,0 +1,11 @@
+.section-heading_style_vertical {
+  margin: 0;
+  padding: 0;
+  margin-right: -80px;
+  margin-left: -120px;
+  text-transform: none;
+  line-height: 12px;
+  transform: rotate(-90deg);
+  color: #fff;
+  letter-spacing: normal;
+}

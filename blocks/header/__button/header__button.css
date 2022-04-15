@@ -1,0 +1,15 @@
+.header__button {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 200px;
+  height: 60px;
+  border-radius: 5px;
+  border: solid 1px rgba(255, 255, 255, .5);
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+  color: #fff;
+  margin: 0 20px;
+}

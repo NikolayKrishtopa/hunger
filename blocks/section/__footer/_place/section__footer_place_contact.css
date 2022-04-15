@@ -1,0 +1,7 @@
+.section__footer_place_contact {
+  height: auto;
+  position: static;
+  font-weight: 700;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  }

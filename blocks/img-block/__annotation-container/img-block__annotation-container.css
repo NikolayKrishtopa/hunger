@@ -1,0 +1,11 @@
+.img-block__annotation-container {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 475px;
+  height: 80px;
+  background-color: black;
+  transform: rotate(90deg);
+  bottom: 198px;
+  right: -198px;
+}
