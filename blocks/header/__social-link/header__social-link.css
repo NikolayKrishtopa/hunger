@@ -11,3 +11,10 @@
   border: solid 1px rgba(255, 255, 255, 0.2);
   background-color: rgba(0, 0, 0, 0.6);
 }
+
+@media (max-width: 700px) {
+.header__social-link {
+  width: 30px;
+  height: 30px;
+}  
+}
