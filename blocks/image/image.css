@@ -2,7 +2,37 @@
   border-radius: 5px;
   margin: 0;
   padding: 0;
-  object-fit:contain;
-  width: 575px;
-  height: 575px;
+  /* object-fit: contain; */
+  width: 100%;
+  max-width: 575px;
+  max-height: 575px;
+}
+
+@media (max-width: 1200px) {
+  .image {
+    max-width: 500px;
+    max-height: 500px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .image {
+    max-width: 450px;
+    max-height: 450px;
+  }
+}
+
+@media (max-width: 900px) {
+  .image {
+    max-width: 400px;
+    max-height: 400px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .image {
+    max-width:450px;
+    max-height: 450px;
+  }
 }

@@ -13,6 +13,14 @@
   background-position: center;
 }
 
+
+@media (max-width: 1100px){
+  .header {
+    min-height: 600px;
+    padding: 0 40px 150px 40px;
+  }
+}
+
 @media (max-width: 900px){
   .header {
     min-height: 500px;

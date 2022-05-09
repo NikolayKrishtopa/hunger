@@ -1,5 +1,35 @@
 .section_name_team {
   background-color: rgb(53, 45, 45);
   background-image: url(../../../images/team_bg.png);
-  padding: 41px 100px 0 90px;
+  padding: 50px 100px 50px 90px;
+}
+
+@media (max-width: 1200px) {
+  .section_name_team {
+    padding: 50px 40px 50px 50px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .section_name_team {
+    padding: 45px 40px 45px 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .section_name_team {
+    padding: 40px 30px 40px 0;
+  }
+}
+
+@media (max-width: 650px) {
+  .section_name_team {
+    padding: 40px 50px 40px 50px;
+  }
+}
+
+@media (max-width: 500px) {
+  .section_name_team {
+    padding: 30px 20px 30px 20px;
+  }
 }

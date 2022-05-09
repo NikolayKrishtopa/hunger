@@ -1,3 +1,39 @@
 .section_name_booking {
-  padding: 0 93px 0 135px;
+  padding: 50px 93px 50px 135px;
+}
+
+@media (max-width: 1335px) {
+  .section_name_booking {
+    padding: 50px 0 50px 50px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .section_name_booking {
+    padding: 0 0 30px 40px;
+  }
+}
+
+@media (max-width: 750px) {
+  .section_name_booking {
+    padding: 30px 0 50px 30px;
+  }
+}
+
+@media (max-width: 650px) {
+  .section_name_booking {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 650px) {
+  .section_name_booking {
+    padding: 30px 30px 20px 30px;
+  }
+}
+
+@media (max-width: 420px) {
+  .section_name_booking {
+    padding: 30px 0 0;
+  }
 }

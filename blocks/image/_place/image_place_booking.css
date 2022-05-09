@@ -1,0 +1,18 @@
+@media( max-width: 700px){
+  .image_place_booking {
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 650px) {
+  .image_place_booking {
+    max-width:450px;
+    max-height: 450px;
+  }
+}
+
+/* @media (max-width: 420px) {
+  .image_place_booking {
+    transform: scale(1.21);
+  }
+} */

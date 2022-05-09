@@ -1,15 +1,32 @@
 .button_place_booking-form {
   margin: 0;
-  padding: 0;
+  padding: 20px;
   grid-column-start: 1;
   grid-column-end: 3;
   width: auto;
+  height: auto;
 }
 
-.section__footer_place_contact {
-height: auto;
-position: static;
-font-weight: 700;
-grid-column-start: 1;
-grid-column-end: 4;
+@media (max-width: 820px) {
+  .button_place_booking-form {
+    padding: 5px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+}
+
+@media (max-width: 650px) {
+  .button_place_booking-form {
+    padding: 20px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+}
+
+@media (max-width: 480px) {
+  .button_place_booking-form {
+    padding: 20px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
 }

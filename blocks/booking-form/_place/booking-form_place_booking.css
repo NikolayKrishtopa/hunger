@@ -1,0 +1,55 @@
+.booking-form_place_booking {
+  width: 560px;
+}
+
+@media (max-width: 1120px) {
+  .booking-form_place_booking {
+    width: 500px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .booking-form_place_booking {
+    width: 450px;
+  }
+}
+
+@media (max-width: 950px) {
+  .booking-form_place_booking {
+    width: 370px;
+  }
+}
+
+@media (max-width: 820px) {
+  .booking-form_place_booking {
+    grid-template-columns: 1fr;
+    width: auto;
+    min-width: 300px;
+  }
+}
+
+@media (max-width: 750px) {
+  .booking-form_place_booking {
+    min-width: 250px;
+  }
+}
+
+@media (max-width: 650px) {
+  .booking-form_place_booking {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .booking-form_place_booking {
+    grid-template-columns: 1fr;
+    min-width: 300px;
+  }
+}
+
+@media (max-width: 360px) {
+  .booking-form_place_booking {
+    width: 100%;
+    min-width: 260px;
+  }
+}

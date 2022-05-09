@@ -31,7 +31,7 @@
         <div class="flex-column">
           <p class="section-heading">RESTAURANT</p>
           <h1 class="header__title">hungry people</h1>
-          <div class="rectangle"></div>
+          <div class="rectangle rectangle_place_header"></div>
           <div class="header__buttons">
             <button class="button button_chosen">BOOK TABLE</button>
             <button class="button">EXPLORE</button>
@@ -57,13 +57,15 @@
         </nav>
       </div>
     </header>
-    <!-- <main>
-      <section class="section section_name_about flex-row">
+    <main>
+      <section class="section section_name_about">
         <div class="flex-column">
-          <h2 class="section-title">about us</h2>
+          <h2 class="section__title">about us</h2>
           <div class="rectangle"></div>
-          <p class="text"><span class="text-accent">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Duis at velit maximus, molestie est a, tempor magna.</span><br><br>
+          <p class="section__text-accent">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Duis at velit maximus, molestie est a, tempor magna.
+          </p>
+          <p class="section__text">
             Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere.
             Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui
             odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt
@@ -71,31 +73,32 @@
         </div>
         <img src="./images/about-img.png" alt="about" class="image">
       </section>
-      <section class="section section_name_team flex-column">
-        <h2 class="section-heading">OUR TEAM</h2>
-        <div class="flex-row">
-          <img src="./images/chef.png" alt="chef" class="image">
-          <div class="flex-column">
-            <h3 class="section-title section-title_theme_dark">MASTER CHEF</h3>
-            <div class="rectangle"></div>
-            <p class="text text_theme_dark"><span class="text-accent text-accent_theme_dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Duis at velit maximus, molestie est a, tempor magna.</span><br><br>
-              Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere.
-              Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui
-              odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt
-              feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
-          </div>
+      <section class="section section_name_team">
+        <h2 class="section-heading section-heading_place_top">OUR TEAM</h2>
+        <img src="./images/chef.png" alt="chef" class="image">
+        <div class="flex-column">
+          <h3 class="section__title section__title_theme_dark">MASTER CHEF</h3>
+          <div class="rectangle"></div>
+          <p class="section__text-accent section__text-accent_theme_dark">Lorem ipsum 
+            dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie 
+            est a, tempor magna.
+          </p>
+          <p class="section__text section__text_theme_dark">
+            Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere.
+            Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui
+            odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt
+            feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
         </div>
       </section>
-      <section class="section section_name_booking flex-row">
+      <section class="section section_name_booking">
         <div class="flex-column">
-          <h2 class="section-title">book a table</h2>
-          <div class="rectangle"></div>
-          <form action="post" class="booking-form">
-            <input type="text" id="name" name="name" class="booking-form__field booking-form__field_place_booking" placeholder="Name">
-            <input type="email" id="email" name="email" class="booking-form__field booking-form__field_place_booking" placeholder="Email">
-            <input type="number" id="phone" name="phone" class="booking-form__field booking-form__field_place_booking" placeholder="Phone">
-            <select name="people" id="people" class="booking-form__field booking-form__field_place_booking" placeholder="People">
+          <h2 class="section__title">book a table</h2>
+          <div class="rectangle rectangle_place_booking"></div>
+          <form action="post" class="booking-form booking-form_place_booking">
+            <input type="text" id="name" name="name" class="booking-form__field" placeholder="Name">
+            <input type="email" id="email" name="email" class="booking-form__field" placeholder="Email">
+            <input type="number" id="phone" name="phone" class="booking-form__field" placeholder="Phone">
+            <select name="people" id="people" class="booking-form__field" placeholder="People">
               <option value="1">1</option>
               <option value="2">2</option>
               <option value="3">3</option>
@@ -104,8 +107,8 @@
               <option value="6">6</option>
               <option value="7">7</option>
             </select>
-            <input type="date" id="date" class="booking-form__field booking-form__field_place_booking" placeholder="Date (mm/dd)">
-            <select name="people" id="people" class="booking-form__field booking-form__field_place_booking" placeholder="People">
+            <input type="date" id="date" class="booking-form__field" placeholder="Date (mm/dd)">
+            <select name="people" id="people" class="booking-form__field" placeholder="People">
               <option value="morning">morning</option>
               <option value="noon">noon</option>
               <option value="evening">evening</option>
@@ -113,30 +116,31 @@
             <button type="submit" class="button button_chosen button_place_booking-form">BOOK NOW</button>
           </form>
         </div>
-        <img src="./images/book-img.png" alt="booking" class="image">
+        <img src="./images/book-img.png" alt="booking" class="image image_place_booking">
         <P class="section__footer">Mon - Fri: <span class="section__footer_accent"> 8PM - 10PM</span>,
           Sat - Sun: <span class="section__footer_accent"> 8PM - 3AM</span>, Phone: <span class="section__footer_accent"> +40 729 131 637/+40 726 458 782</span></P>
       </section>
-      <section class="section section_name_speciality flex-column">
-        <h2 class="section-heading">specialties</h2>
-        <div class="flex-row">
-          <img src="./images/specialitys.png" alt="chef" class="image">
-          <div class="flex-column">
-            <h3 class="section-title section-title_theme_dark">chocolate pancakes</h3>
-            <div class="rectangle"></div>
-            <p class="text text_theme_dark"><span class="text-accent text-accent_theme_dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Duis at velit maximus, molestie est a, tempor magna.</span><br><br>
-              Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere.
-              Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui
-              odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt
-              feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
-          </div>
+      <section class="section section_name_speciality">
+        <h2 class="section-heading section-heading_place_top">specialties</h2>
+        <img src="./images/specialitys.png" alt="chef" class="image">
+        <div class="flex-column">
+          <h3 class="section__title section__title_theme_dark">chocolate pancakes</h3>
+          <div class="rectangle"></div>
+          <p class="section__text-accent section__text-accent_theme_dark">Lorem ipsum dolor sit 
+            amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.
+          </p>
+          <p class="section__text section__text_theme_dark">
+            Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere.
+            Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui
+            odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt
+            feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+          </p>
         </div>
       </section>
-      <section class="section section_name_menu flex-column menu">
-        <h2 class="section-title">DELICIOUS MENU</h2>
+      <!-- <section class="section section_name_menu flex-column menu">
+        <h2 class="section__title">DELICIOUS MENU</h2>
         <div class="rectangle"></div>
-        <p class="text text_place_menu"><span class="text-accent">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        <p class="section__text section__text_place_menu"><span class="section__text-accent">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           Duis at velit maximus, molestie est a, tempor magna.</span></p>
           <div class="flex-column">
             <nav class="flex-row flex-row_justify-content_center">
@@ -235,29 +239,27 @@
               </div>
             </div>
           </div>
-      </section>
-      <section class="section section_name_private-events flex-column">
-        <h2 class="section-heading">PRIVATE EVENTS</h2>
-        <div class="flex-row">
-          <div class="img-block">
-            <div class="img-block__annotation-container">
-              <p class="img-block__annotation">weddings</p>
-            </div>
-            <img src="./images/events-1.png" alt="rings" class="image">
+      </section> -->
+      <section class="section section_name_private-events">
+        <h2 class="section-heading section-heading_place_top">PRIVATE EVENTS</h2>
+        <div class="img-block">
+          <div class="img-block__annotation-container">
+            <p class="img-block__annotation">weddings</p>
           </div>
-          <div class="img-block">
-            <div class="img-block__annotation-container img-block__annotation-container_style_left">
-              <p class="img-block__annotation">corporate parties</p>
-            </div>
-            <img src="./images/events-2.png" alt="wedding" class="image">
+          <img src="./images/events-1.png" alt="rings" class="image">
+        </div>
+        <div class="img-block">
+          <div class="img-block__annotation-container img-block__annotation-container_style_left">
+            <p class="img-block__annotation">corporate parties</p>
           </div>
+          <img src="./images/events-2.png" alt="wedding" class="image">
         </div>
       </section>
-      <section class="section section_name_contact">
+      <!-- <section class="section section_name_contact">
         <div class="flex-column">
-          <h2 class="section-title">contact</h2>
+          <h2 class="section__title">contact</h2>
           <div class="rectangle"></div>
-          <p class="text text_place_contact text-accent">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus,
+          <p class="section__text section__text_place_contact section__text-accent">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus,
             molestie est a, tempor magna.</p>
           <form action="post" class="booking-form booking-form_place_contact">
             <input type="text" id="contact-name" name="contact-name" class="booking-form__field booking-form__field_place_contact-name" placeholder="Name">
@@ -268,13 +270,12 @@
             <buton class="button button_chosen button_place_contact">SEND MESSAGE</buton>
           </form>
         </div>
-
-      </section>
+      </section> -->
     </main>
     <footer class="footer">
       <p class="footer__text">© Copyright Mindblister 2019</p>
     </footer>
-  </div> -->
+  </div>
 </body>
 </html>
 

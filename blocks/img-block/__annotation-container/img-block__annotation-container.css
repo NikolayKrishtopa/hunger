@@ -2,10 +2,18 @@
   display: flex;
   align-items: center;
   position: absolute;
-  width: 475px;
-  height: 80px;
+  width: 100%;
+  height: 16.84%;
   background-color: black;
   transform: rotate(90deg);
-  bottom: 198px;
-  right: -198px;
+  bottom: 41.68%;
+  right: -41.68%;
+}
+
+@media (max-width: 650px) {
+  .img-block__annotation-container {
+    transform: none;
+    bottom: 0;
+    right: 0;
+  }
 }

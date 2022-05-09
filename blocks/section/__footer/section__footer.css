@@ -1,16 +1,33 @@
 .section__footer {
   margin: 0;
   padding: 0;
-  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   position: absolute;
-  bottom: 0px;
+  bottom: 44px;
   left: 0;
   font-family: 'Open Sans';
   font-size: 12px;
-  line-height: 12px;
+  line-height: 1;
   font-weight: 400;
+}
+
+@media (max-width: 1000px) {
+  .section__footer {
+    bottom: 24px;
+  }
+}
+
+@media (max-width: 600px) {
+  .section__footer {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 420px) {
+  .section__footer {
+    display: none;
+  }
 }

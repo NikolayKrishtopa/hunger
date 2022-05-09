@@ -1,5 +1,13 @@
 .img-block__annotation-container_style_left {
   transform: rotate(-90deg);
-  bottom: 197px;
-  right: 199px;
+  bottom: 41.68%;
+  right: 41.68%;
+}
+
+@media (max-width: 650px) {
+  .img-block__annotation-container_style_left {
+    transform: none;
+    top: 0;
+    right: 0;
+  }
 }

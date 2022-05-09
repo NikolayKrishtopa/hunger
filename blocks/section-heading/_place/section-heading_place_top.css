@@ -1,0 +1,32 @@
+.section-heading_place_top {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  left: 0;
+  top: 43px;
+}
+
+@media (max-width: 1000px) {
+  .section-heading_place_top {
+    top: 38px;
+  }
+}
+
+@media (max-width: 900px) {
+  .section-heading_place_top {
+    top: 34px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .section-heading_place_top {    
+    top: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .section-heading_place_top {    
+    top: 25px;
+  }
+}

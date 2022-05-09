@@ -1,10 +1,42 @@
 .img-block {
   position: relative;
-  padding-top: 50px;
+  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex: 0 0;
-  width: 475px;
-  height: 475px;
+  max-width: 475px;
+  max-height: 475px;
+  overflow: hidden;
+}
+
+@media (max-width: 1200px) {
+  .img-block {
+    max-width: 400px;
+    max-height: 400px;
+  }
+}
+
+@media (max-width: 900px) {
+  .img-block {
+    max-width: 350px;
+    max-height: 350px;
+  }
+}
+
+@media (max-width: 800px) {
+  .img-block {
+    max-width: 300px;
+    max-height: 300px;
+  }
+}
+
+@media (max-width: 650px) {
+  .img-block {
+    max-width: 450px;
+    max-height: 450px;
+    margin-bottom: 40px;
+  }
+  .img-block:last-child {
+    margin: 0;
+  }
 }

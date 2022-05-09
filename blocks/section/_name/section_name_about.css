@@ -1,3 +1,33 @@
 .section_name_about {
-  padding: 0 105px 0 80px;
+  padding: 50px 105px 50px 80px;
+}
+
+@media (max-width: 1200px) {
+  .section_name_about {
+    padding: 0 50px 0 40px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .section_name_about {
+    padding: 0 20px 0 40px;
+  }
+}
+
+@media (max-width: 700px) {
+  .section_name_about {
+    padding: 0 0 0 30px;
+  }
+}
+
+@media (max-width: 650px) {
+  .section_name_about {
+    padding: 40px 50px 0 50px;
+  }
+}
+
+@media (max-width: 500px) {
+  .section_name_about {
+    padding: 30px 20px 0 20px;
+  }
 }
