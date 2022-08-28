@@ -8,6 +8,7 @@ export default function Booking() {
         <div className="rectangle rectangle_place_booking"></div>
         <form action="post" className="booking-form booking-form_place_booking">
           <input
+            required
             type="text"
             id="name"
             name="name"
@@ -15,6 +16,7 @@ export default function Booking() {
             placeholder="Name"
           />
           <input
+            required
             type="email"
             id="email"
             name="email"
@@ -22,6 +24,7 @@ export default function Booking() {
             placeholder="Email"
           />
           <input
+            required
             type="number"
             id="phone"
             name="phone"
