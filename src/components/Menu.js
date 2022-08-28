@@ -1,208 +1,92 @@
+import { useState } from 'react'
 import HomeButton from './HomeButton'
+import menu from '../utils/menu'
+import MenuItem from './MenuItem'
 
 export default function Menu(props) {
+  const [chapter, setChapter] = useState('')
+
   return (
     <section className="section section_name_menu flex-column menu">
       <HomeButton {...props} />
       <h2 className="section__title">DELICIOUS MENU</h2>
       <div className="rectangle"></div>
       <p className="section__text section__text-accent">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit
-        maximus, molestie est a, tempor magna.
+        We are working to bring the greatest flavor to you every day. Once
+        discover our cousine you will never forget it. Enjoy!
       </p>
       <div className="flex-column">
         <nav className="flex-row flex-row_justify-content_center">
-          <button type="button" onClick="" className="menu__chapter">
-            SOUPE
+          <button
+            type="button"
+            onClick={() => setChapter('soup')}
+            className={`menu__chapter ${
+              chapter === 'soup' && 'menu__chapter_active'
+            }`}
+          >
+            SOUP
           </button>
-          <button type="button" onClick="" className="menu__chapter">
+          <button
+            type="button"
+            onClick={() => setChapter('pizza')}
+            className={`menu__chapter ${
+              chapter === 'pizza' && 'menu__chapter_active'
+            }`}
+          >
             PIZZA
           </button>
-          <button type="button" onClick="" className="menu__chapter">
+          <button
+            type="button"
+            onClick={() => setChapter('pasta')}
+            className={`menu__chapter ${
+              chapter === 'pasta' && 'menu__chapter_active'
+            }`}
+          >
             PASTA
           </button>
-          <button type="button" onClick="" className="menu__chapter">
-            DESERT
+          <button
+            type="button"
+            onClick={() => setChapter('dessert')}
+            className={`menu__chapter ${
+              chapter === 'dessert' && 'menu__chapter_active'
+            }`}
+          >
+            DESSERT
           </button>
-          <button type="button" onClick="" className="menu__chapter">
-            WINE
+          <button
+            type="button"
+            onClick={() => setChapter('sandwich')}
+            className={`menu__chapter ${
+              chapter === 'sandwich' && 'menu__chapter_active'
+            }`}
+          >
+            SANDWICHES
           </button>
-          <button type="button" onClick="" className="menu__chapter">
+          <button
+            type="button"
+            onClick={() => setChapter('beer')}
+            className={`menu__chapter ${
+              chapter === 'beer' && 'menu__chapter_active'
+            }`}
+          >
             BEER
           </button>
-          <button type="button" onClick="" className="menu__chapter">
+          <button
+            type="button"
+            onClick={() => setChapter('drink')}
+            className={`menu__chapter ${
+              chapter === 'drink' && 'menu__chapter_active'
+            }`}
+          >
             DRINKS
           </button>
         </nav>
         <div className="menu__main">
-          <div className="menu__item">
-            <p className="menu__row-main">
-              PIZZA QUATRO STAGIONI . . . . 55,68 USD
-            </p>
-            <p className="menu__row-extra">
-              Integer ullamcorper neque eu purus euismod
-            </p>
-          </div>
-          <div className="menu__item">
-            <p className="menu__row-main">
-              PIZZA QUATRO STAGIONI . . . . 55,68 USD
-            </p>
-            <p className="menu__row-extra">
-              Integer ullamcorper neque eu purus euismod
-            </p>
-          </div>
-          <div className="menu__item">
-            <p className="menu__row-main">
-              PIZZA QUATRO STAGIONI . . . . 55,68 USD
-            </p>
-            <p className="menu__row-extra">
-              Integer ullamcorper neque eu purus euismod
-            </p>
-          </div>
-          <div className="menu__item">
-            <p className="menu__row-main">
-              PIZZA QUATRO STAGIONI . . . . 55,68 USD
-            </p>
-            <p className="menu__row-extra">
-              Integer ullamcorper neque eu purus euismod
-            </p>
-          </div>
-          <div className="menu__item">
-            <p className="menu__row-main">
-              PIZZA QUATRO STAGIONI . . . . 55,68 USD
-            </p>
-            <p className="menu__row-extra">
-              Integer ullamcorper neque eu purus euismod
-            </p>
-          </div>
-          <div className="menu__item">
-            <p className="menu__row-main">
-              PIZZA QUATRO STAGIONI . . . . 55,68 USD
-            </p>
-            <p className="menu__row-extra">
-              Integer ullamcorper neque eu purus euismod
-            </p>
-          </div>
-          <div className="menu__item">
-            <p className="menu__row-main">
-              PIZZA QUATRO STAGIONI . . . . 55,68 USD
-            </p>
-            <p className="menu__row-extra">
-              Integer ullamcorper neque eu purus euismod
-            </p>
-          </div>
-          <div className="menu__item">
-            <p className="menu__row-main">
-              PIZZA QUATRO STAGIONI . . . . 55,68 USD
-            </p>
-            <p className="menu__row-extra">
-              Integer ullamcorper neque eu purus euismod
-            </p>
-          </div>
-          <div className="menu__item">
-            <p className="menu__row-main">
-              PIZZA QUATRO STAGIONI . . . . 55,68 USD
-            </p>
-            <p className="menu__row-extra">
-              Integer ullamcorper neque eu purus euismod
-            </p>
-          </div>
-          <div className="menu__item">
-            <p className="menu__row-main">
-              PIZZA QUATRO STAGIONI . . . . 55,68 USD
-            </p>
-            <p className="menu__row-extra">
-              Integer ullamcorper neque eu purus euismod
-            </p>
-          </div>
-          <div className="menu__item">
-            <p className="menu__row-main">
-              PIZZA QUATRO STAGIONI . . . . 55,68 USD
-            </p>
-            <p className="menu__row-extra">
-              Integer ullamcorper neque eu purus euismod
-            </p>
-          </div>
-          <div className="menu__item">
-            <p className="menu__row-main">
-              PIZZA QUATRO STAGIONI . . . . 55,68 USD
-            </p>
-            <p className="menu__row-extra">
-              Integer ullamcorper neque eu purus euismod
-            </p>
-          </div>
-          <div className="menu__item">
-            <p className="menu__row-main">
-              PIZZA QUATRO STAGIONI . . . . 55,68 USD
-            </p>
-            <p className="menu__row-extra">
-              Integer ullamcorper neque eu purus euismod
-            </p>
-          </div>
-          <div className="menu__item">
-            <p className="menu__row-main">
-              PIZZA QUATRO STAGIONI . . . . 55,68 USD
-            </p>
-            <p className="menu__row-extra">
-              Integer ullamcorper neque eu purus euismod
-            </p>
-          </div>
-          <div className="menu__item">
-            <p className="menu__row-main">
-              PIZZA QUATRO STAGIONI . . . . 55,68 USD
-            </p>
-            <p className="menu__row-extra">
-              Integer ullamcorper neque eu purus euismod
-            </p>
-          </div>
-          <div className="menu__item">
-            <p className="menu__row-main">
-              PIZZA QUATRO STAGIONI . . . . 55,68 USD
-            </p>
-            <p className="menu__row-extra">
-              Integer ullamcorper neque eu purus euismod
-            </p>
-          </div>
-          <div className="menu__item">
-            <p className="menu__row-main">
-              PIZZA QUATRO STAGIONI . . . . 55,68 USD
-            </p>
-            <p className="menu__row-extra">
-              Integer ullamcorper neque eu purus euismod
-            </p>
-          </div>
-          <div className="menu__item">
-            <p className="menu__row-main">
-              PIZZA QUATRO STAGIONI . . . . 55,68 USD
-            </p>
-            <p className="menu__row-extra">
-              Integer ullamcorper neque eu purus euismod
-            </p>
-          </div>
-          <div className="menu__item">
-            <p className="menu__row-main">
-              PIZZA QUATRO STAGIONI . . . . 55,68 USD
-            </p>
-            <p className="menu__row-extra">
-              Integer ullamcorper neque eu purus euismod
-            </p>
-          </div>
-          <div className="menu__item">
-            <p className="menu__row-main">
-              PIZZA QUATRO STAGIONI . . . . 55,68 USD
-            </p>
-            <p className="menu__row-extra">
-              Integer ullamcorper neque eu purus euismod
-            </p>
-          </div>
-          <div className="menu__item">
-            <p className="menu__row-main">
-              PIZZA QUATRO STAGIONI . . . . 55,68 USD
-            </p>
-            <p className="menu__row-extra">
-              Integer ullamcorper neque eu purus euismod
-            </p>
-          </div>
+          {menu
+            .filter((item) => (chapter ? item.type === chapter : item))
+            .map((item) => {
+              return <MenuItem key={item.id} {...item} />
+            })}
         </div>
       </div>
     </section>

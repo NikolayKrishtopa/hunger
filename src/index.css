@@ -32,6 +32,7 @@
 @import url(./blocks/img-block/__annotation-container/_style/img-block__annotation-container_style_left.css);
 @import url(./blocks/menu/menu.css);
 @import url(./blocks/menu/__chapter/menu__chapter.css);
+@import url(./blocks/menu/__chapter/_active/menu__chapter_active.css);
 @import url(./blocks/menu/__item/menu__item.css);
 @import url(./blocks/menu/__main/menu__main.css);
 @import url(./blocks/menu/__row-extra/menu__row-extra.css);
