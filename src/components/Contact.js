@@ -40,9 +40,12 @@ export default function Contact() {
              5th London Boulevard, U.K.  +40 729 131 637/+40 726 458 782 
             office@mindblister.com
           </p>
-          <buton className="button button_chosen button_place_contact">
+          <button
+            type="submit"
+            className="button button_active button_place_contact"
+          >
             SEND MESSAGE
-          </buton>
+          </button>
         </form>
       </div>
     </section>

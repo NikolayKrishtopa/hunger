@@ -8,7 +8,7 @@
 @import url(./blocks/booking-form/_place/booking-form_place_contact.css);
 @import url(./blocks/booking-form/_place/booking-form_place_booking.css);
 @import url(./blocks/button/button.css);
-@import url(./blocks/button/_chosen/button_chosen.css);
+@import url(./blocks/button/_active/button_active.css);
 @import url(./blocks/button/_place/button_place_booking-form.css);
 @import url(./blocks/button/_place/button_place_contact.css);
 @import url(./blocks/flex-column/flex-column.css);

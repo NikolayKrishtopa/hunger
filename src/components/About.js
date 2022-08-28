@@ -1,3 +1,5 @@
+import aboutImage from '../images/about-img.png'
+
 export default function About() {
   return (
     <section className="section section_name_about">
@@ -16,7 +18,7 @@ export default function About() {
           semper laoreet.
         </p>
       </div>
-      <img src="./images/about-img.png" alt="about" className="image" />
+      <img src={aboutImage} alt="about" className="image" />
     </section>
   )
 }

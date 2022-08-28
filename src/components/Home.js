@@ -1,36 +1,69 @@
 import logo from '../images/logo.svg'
 
-export default function Home() {
+export default function Home(props) {
+  const { onChangeMode } = props
   return (
     <header className="header">
       <nav className="flex-row">
         <div className="header__links-container">
-          <a href="#" className="header__link">
+          <button
+            type="button"
+            onClick={() => onChangeMode('home')}
+            className="header__link"
+          >
             HOME
-          </a>
-          <a href="#" className="header__link">
+          </button>
+          <button
+            type="button"
+            onClick={() => onChangeMode('about')}
+            className="header__link"
+          >
             ABOUT
-          </a>
-          <a href="#" className="header__link">
+          </button>
+          <button
+            type="button"
+            onClick={() => onChangeMode('team')}
+            className="header__link"
+          >
             TEAM
-          </a>
-          <a href="#" className="header__link">
+          </button>
+          <button
+            type="button"
+            onClick={() => onChangeMode('booking')}
+            className="header__link"
+          >
             BOOKING
-          </a>
+          </button>
         </div>
         <div className="header__links-container">
-          <a href="#" className="header__link">
+          <button
+            type="button"
+            onClick={() => onChangeMode('menu')}
+            className="header__link"
+          >
             MENU
-          </a>
-          <a href="#" className="header__link">
+          </button>
+          <button
+            type="button"
+            onClick={() => onChangeMode('gallerie')}
+            className="header__link"
+          >
             GALERIE
-          </a>
-          <a href="#" className="header__link">
+          </button>
+          <button
+            type="button"
+            onClick={() => onChangeMode('events')}
+            className="header__link"
+          >
             EVENTS
-          </a>
-          <a href="#" className="header__link">
+          </button>
+          <button
+            type="button"
+            onClick={() => onChangeMode('contact')}
+            className="header__link"
+          >
             CONTACT
-          </a>
+          </button>
         </div>
       </nav>
       <img src={logo} alt="logo" className="header__logo" />
@@ -43,8 +76,20 @@ export default function Home() {
           <h1 className="header__title">hungry people</h1>
           <div className="rectangle rectangle_place_header"></div>
           <div className="header__buttons">
-            <button className="button button_chosen">BOOK TABLE</button>
-            <button className="button">EXPLORE</button>
+            <button
+              type="button"
+              onClick={() => onChangeMode('booking')}
+              className="button button_active"
+            >
+              BOOK TABLE
+            </button>
+            <button
+              type="button"
+              onClick={() => onChangeMode('about')}
+              className="button button_active"
+            >
+              EXPLORE
+            </button>
           </div>
         </div>
         <nav className="header__social">

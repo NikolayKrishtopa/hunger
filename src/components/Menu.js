@@ -9,27 +9,27 @@ export default function Menu() {
       </p>
       <div className="flex-column">
         <nav className="flex-row flex-row_justify-content_center">
-          <a href="#" className="menu__chapter">
+          <button type="button" onClick="" className="menu__chapter">
             SOUPE
-          </a>
-          <a href="#" className="menu__chapter">
+          </button>
+          <button type="button" onClick="" className="menu__chapter">
             PIZZA
-          </a>
-          <a href="#" className="menu__chapter">
+          </button>
+          <button type="button" onClick="" className="menu__chapter">
             PASTA
-          </a>
-          <a href="#" className="menu__chapter">
+          </button>
+          <button type="button" onClick="" className="menu__chapter">
             DESERT
-          </a>
-          <a href="#" className="menu__chapter">
+          </button>
+          <button type="button" onClick="" className="menu__chapter">
             WINE
-          </a>
-          <a href="#" className="menu__chapter">
+          </button>
+          <button type="button" onClick="" className="menu__chapter">
             BEER
-          </a>
-          <a href="#" className="menu__chapter">
+          </button>
+          <button type="button" onClick="" className="menu__chapter">
             DRINKS
-          </a>
+          </button>
         </nav>
         <div className="menu__main">
           <div className="menu__item">

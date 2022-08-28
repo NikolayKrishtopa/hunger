@@ -8,27 +8,26 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  min-height: 800px;
+  height: 100vh;
   background-image: url(../../images/header-background.png);
   background-position: center;
 }
 
-
-@media (max-width: 1100px){
+@media (max-width: 1100px) {
   .header {
     min-height: 600px;
     padding: 0 40px 150px 40px;
   }
 }
 
-@media (max-width: 900px){
+@media (max-width: 900px) {
   .header {
     min-height: 500px;
     padding: 0 40px 100px 40px;
   }
 }
 
-@media (max-width: 600px){
+@media (max-width: 600px) {
   .header {
     min-height: 400px;
     padding: 0 20px 60px 20px;

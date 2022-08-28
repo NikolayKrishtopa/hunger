@@ -1,5 +1,5 @@
-import events1 from './images/events-1.png'
-import events2 from './images/events-2.png'
+import events1 from '../images/events-1.png'
+import events2 from '../images/events-2.png'
 
 export default function Events() {
   return (
