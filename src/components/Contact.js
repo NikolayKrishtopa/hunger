@@ -1,12 +1,15 @@
-export default function Contact() {
+import HomeButton from './HomeButton'
+
+export default function Contact(props) {
   return (
     <section className="section section_name_contact">
+      <HomeButton {...props} />
       <div className="flex-column">
         <h2 className="section__title">contact</h2>
         <div className="rectangle"></div>
         <p className="section__text section__text_place_contact section__text-accent">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit
-          maximus, molestie est a, tempor magna.
+          Please send your message to us using the form below. Our team will
+          response as fast as possible.
         </p>
         <form action="post" className="booking-form booking-form_place_contact">
           <input

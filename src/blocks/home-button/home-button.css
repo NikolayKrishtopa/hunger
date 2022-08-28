@@ -1,0 +1,30 @@
+.home-button {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: solid 2px rgba(255, 255, 255, 0.2);
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: opacity 0.5s ease;
+}
+
+.home-button:hover {
+  opacity: 50%;
+}
+
+@media (max-width: 700px) {
+  .home-button {
+    top: 30px;
+    left: 30px;
+    width: 30px;
+    height: 30px;
+  }
+}

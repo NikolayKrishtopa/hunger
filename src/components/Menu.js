@@ -1,6 +1,9 @@
-export default function Menu() {
+import HomeButton from './HomeButton'
+
+export default function Menu(props) {
   return (
     <section className="section section_name_menu flex-column menu">
+      <HomeButton {...props} />
       <h2 className="section__title">DELICIOUS MENU</h2>
       <div className="rectangle"></div>
       <p className="section__text section__text-accent">

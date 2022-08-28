@@ -63,3 +63,5 @@
 @import url(./blocks/section-heading/section-heading.css);
 @import url(./blocks/section-heading/_place/section-heading_place_top.css);
 @import url(./blocks/section-heading/_style/section-heading_style_vertical.css);
+@import url(./blocks/home-button/home-button.css);
+@import url(./blocks/home-button/__icon/home-button__icon.css);

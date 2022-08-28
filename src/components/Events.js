@@ -1,9 +1,11 @@
 import events1 from '../images/events-1.png'
 import events2 from '../images/events-2.png'
+import HomeButton from './HomeButton'
 
-export default function Events() {
+export default function Events(props) {
   return (
     <section className="section section_name_private-events">
+      <HomeButton {...props} />
       <h2 className="section-heading section-heading_place_top">
         PRIVATE EVENTS
       </h2>

@@ -1,8 +1,10 @@
 import aboutImage from '../images/about-img.png'
+import HomeButton from './HomeButton'
 
-export default function About() {
+export default function About(props) {
   return (
     <section className="section section_name_about">
+      <HomeButton {...props} />
       <div className="flex-column">
         <h2 className="section__title">about us</h2>
         <div className="rectangle"></div>

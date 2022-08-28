@@ -1,8 +1,10 @@
 import booking from '../images/book-img.png'
+import HomeButton from './HomeButton'
 
-export default function Booking() {
+export default function Booking(props) {
   return (
     <section className="section section_name_booking">
+      <HomeButton {...props} />
       <div className="flex-column">
         <h2 className="section__title">book a table</h2>
         <div className="rectangle rectangle_place_booking"></div>

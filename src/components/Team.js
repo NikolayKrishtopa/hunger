@@ -1,8 +1,10 @@
 import chef from '../images/chef.png'
+import HomeButton from './HomeButton'
 
-export default function Team() {
+export default function Team(props) {
   return (
     <section className="section section_name_team">
+      <HomeButton {...props} />
       <h2 className="section-heading section-heading_place_top">OUR TEAM</h2>
       <img src={chef} alt="chef" className="image" />
       <div className="flex-column">
