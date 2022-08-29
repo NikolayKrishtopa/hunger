@@ -1,3 +1,15 @@
+@keyframes blink-button {
+  0% {
+    opacity: 100%;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
 .home-button {
   margin: 0;
   padding: 0;
@@ -14,6 +26,7 @@
   border: solid 2px rgba(255, 255, 255, 0.2);
   background-color: rgba(0, 0, 0, 0.6);
   transition: opacity 0.5s ease;
+  /* animation: blink-button 2s linear infinite; */
 }
 
 .home-button:hover {

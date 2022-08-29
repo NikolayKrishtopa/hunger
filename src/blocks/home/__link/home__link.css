@@ -1,4 +1,4 @@
-.header__link {
+.home__link {
   margin: 0;
   padding: 0;
   width: 25%;
@@ -18,16 +18,16 @@
   transition: opacity 1s ease;
 }
 
-.header__link:hover {
+.home__link:hover {
   opacity: 50%;
 }
 
 @media (max-width: 700px) {
-  .header__link {
+  .home__link {
     margin-bottom: 20px;
     width: 100%;
   }
-  .header__link:last-child {
+  .home__link:last-child {
     margin-bottom: 40px;
   }
 }

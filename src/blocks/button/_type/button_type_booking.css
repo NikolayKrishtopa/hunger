@@ -1,0 +1,15 @@
+@keyframes blink-color-button {
+  0% {
+    background-color: transparent;
+  }
+  50% {
+    background-color: #e8c300;
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+
+.button_type_booking {
+  animation: blink-color-button 3s linear infinite;
+}

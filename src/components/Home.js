@@ -3,97 +3,97 @@ import logo from '../images/logo.svg'
 export default function Home(props) {
   const { onChangeMode } = props
   return (
-    <header className="header">
+    <home className="home">
       <nav className="flex-row">
-        <div className="header__links-container">
+        <div className="home__links-container">
           <button
             type="button"
             onClick={() => onChangeMode('home')}
-            className="header__link"
+            className="home__link"
           >
             HOME
           </button>
           <button
             type="button"
             onClick={() => onChangeMode('about')}
-            className="header__link"
+            className="home__link"
           >
             ABOUT
           </button>
           <button
             type="button"
             onClick={() => onChangeMode('team')}
-            className="header__link"
+            className="home__link"
           >
             TEAM
           </button>
           <button
             type="button"
             onClick={() => onChangeMode('booking')}
-            className="header__link"
+            className="home__link"
           >
             BOOKING
           </button>
         </div>
-        <div className="header__links-container">
+        <div className="home__links-container">
           <button
             type="button"
             onClick={() => onChangeMode('menu')}
-            className="header__link"
+            className="home__link"
           >
             MENU
           </button>
           <button
             type="button"
             onClick={() => onChangeMode('gallerie')}
-            className="header__link"
+            className="home__link"
           >
             GALERIE
           </button>
           <button
             type="button"
             onClick={() => onChangeMode('events')}
-            className="header__link"
+            className="home__link"
           >
             EVENTS
           </button>
           <button
             type="button"
             onClick={() => onChangeMode('contact')}
-            className="header__link"
+            className="home__link"
           >
             CONTACT
           </button>
         </div>
       </nav>
-      <img src={logo} alt="logo" className="header__logo" />
-      <div className="header__center">
+      <img src={logo} alt="logo" className="home__logo" />
+      <div className="home__center">
         <p className="section-heading section-heading_style_vertical">
           Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM
         </p>
         <div className="flex-column">
           <p className="section-heading">RESTAURANT</p>
-          <h1 className="header__title">hungry people</h1>
-          <div className="rectangle rectangle_place_header"></div>
-          <div className="header__buttons">
+          <h1 className="home__title">hungry people</h1>
+          <div className="rectangle rectangle_place_home"></div>
+          <div className="home__buttons">
             <button
               type="button"
               onClick={() => onChangeMode('booking')}
-              className="button button_active"
+              className="button button_type_booking"
             >
               BOOK TABLE
             </button>
             <button
               type="button"
               onClick={() => onChangeMode('about')}
-              className="button button_active"
+              className="button"
             >
               EXPLORE
             </button>
           </div>
         </div>
-        <nav className="header__social">
-          <a href="" className="header__social-link">
+        <nav className="home__social">
+          <a href="" className="home__social-link">
             <svg
               width="12"
               height="21"
@@ -107,7 +107,7 @@ export default function Home(props) {
               />
             </svg>
           </a>
-          <a href="" className="header__social-link">
+          <a href="" className="home__social-link">
             <svg
               width="20"
               height="18"
@@ -121,7 +121,7 @@ export default function Home(props) {
               />
             </svg>
           </a>
-          <a href="" className="header__social-link">
+          <a href="" className="home__social-link">
             <svg
               width="18"
               height="18"
@@ -137,6 +137,6 @@ export default function Home(props) {
           </a>
         </nav>
       </div>
-    </header>
+    </home>
   )
 }

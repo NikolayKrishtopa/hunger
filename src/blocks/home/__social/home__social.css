@@ -1,0 +1,16 @@
+.home__social {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 500px) {
+  .home__social {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    min-width: 40%;
+  }
+}

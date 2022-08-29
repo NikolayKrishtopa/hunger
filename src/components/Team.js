@@ -13,15 +13,12 @@ export default function Team(props) {
         </h3>
         <div className="rectangle"></div>
         <p className="section__text-accent section__text-accent_theme_dark">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit
-          maximus, molestie est a, tempor magna.
+          We are glad and proud to introduce our chef Lucie Prettier
         </p>
         <p className="section__text section__text_theme_dark">
-          Integer ullamcorper neque eu purus euismod, ac faucibus mauris
-          posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper
-          feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem.
-          Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis
-          semper laoreet.
+          Lucie is great and talented chef who is experienced in european and
+          Mediterranean cousine. She have served for years at the best
+          restaraunts of Europe and USA before she came to London
         </p>
       </div>
     </section>
