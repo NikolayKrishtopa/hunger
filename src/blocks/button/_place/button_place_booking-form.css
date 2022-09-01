@@ -5,6 +5,7 @@
   grid-column-end: 3;
   width: auto;
   height: auto;
+  background-color: grey;
 }
 
 @media (max-width: 820px) {

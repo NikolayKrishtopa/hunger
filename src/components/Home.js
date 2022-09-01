@@ -3,7 +3,7 @@ import logo from '../images/logo.svg'
 export default function Home(props) {
   const { onChangeMode } = props
   return (
-    <home className="home">
+    <div className="home">
       <nav className="flex-row">
         <div className="home__links-container">
           <button
@@ -137,6 +137,6 @@ export default function Home(props) {
           </a>
         </nav>
       </div>
-    </home>
+    </div>
   )
 }

@@ -1,0 +1,4 @@
+.booking-form__input-container_place_contact-email {
+  grid-column-start: 3;
+  grid-column-end: 5;
+}

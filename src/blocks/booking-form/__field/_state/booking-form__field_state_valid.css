@@ -1,0 +1,4 @@
+.booking-form__field_state_valid {
+  border: 2px solid green;
+  outline: none;
+}
