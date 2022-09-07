@@ -1,4 +1,4 @@
-# Project: Hungry people
+# Project: Hungry people [Пожалуйста, нажмите для переключения на русский язык](./README.md)
 
 This is one of the first HTML/CSS projects created at the very beginning of my activity as a frontend developer. Some later it was decided to redo this project as a small application developed with JavaScript in combination with React.js library to support new skills got during my classes at [Yandex.Praktikum school](https://practicum.yandex.ru).
 
