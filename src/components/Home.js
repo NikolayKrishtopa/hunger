@@ -45,7 +45,7 @@ export default function Home(props) {
           </button>
           <button
             type="button"
-            onClick={() => onChangeMode('gallerie')}
+            onClick={() => onChangeMode('gallery')}
             className="home__link"
           >
             GALERIE

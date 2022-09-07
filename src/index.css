@@ -71,3 +71,5 @@
 @import url(./blocks/booking-form/__field/_state/booking-form__field_state_valid.css);
 @import url(./blocks/booking-form/__input-container/booking-form__input-container.css);
 @import url(./blocks/booking-form/__input-error/booking-form__input-error.css);
+@import url(./blocks/temp/temp.css);
+@import url(./blocks/temp/__text/temp__text.css);

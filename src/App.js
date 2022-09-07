@@ -6,6 +6,7 @@ import Booking from './components/Booking'
 import Menu from './components/Menu'
 import Events from './components/Events'
 import Contact from './components/Contact'
+import Gallery from './components/Gallery'
 
 function App() {
   const [mode, setMode] = useState('home')
@@ -29,6 +30,8 @@ function App() {
         <Events onChangeMode={onChangeMode} />
       ) : mode === 'contact' ? (
         <Contact onChangeMode={onChangeMode} />
+      ) : mode === 'gallery' ? (
+        <Gallery onChangeMode={onChangeMode} />
       ) : (
         <></>
       )}
