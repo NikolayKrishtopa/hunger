@@ -10,6 +10,4 @@
 
 [Ссылка на исходный макет в Figma](https://www.figma.com/file/99VWS9wLtcNpWYAvWWbNwo/Hunger---Website-Template?node-id=0%3A1)
 
-Страница доступна по [ссылке](https://nikolaykrishtopa.github.io/hunger)
-
 Спасибо за внимание!
